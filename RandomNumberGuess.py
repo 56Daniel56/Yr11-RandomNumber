@@ -5,7 +5,7 @@ play_list=["yes!", "yes", "Yes","Ya","Yep","yep","Yup","YAAAAAS","Totally","Tote
 leave_list=["No","no","nah","nope","totally not","n","N"]
 #list for stay or leave answer for varible: playagain
 #restart=0
-uname=input("please enter your name: ")
+uname=raw_input("please enter your name: ")
 #asks for user name
 print("Hello", uname , ".This is a Game where you have to corectly guess a number, you are only allowed 3 guesses.")
 #prints a greeting
@@ -58,6 +58,4 @@ while True:
             print ("Good bye, ", uname ,".")
             quit()
         #quits program if user dosent want to play
-            try:
-                playagain = input("Play again? (y/n): ")
-        #break
+        playagain = raw_input("Play again? (y/n): ")
