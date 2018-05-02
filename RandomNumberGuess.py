@@ -1,6 +1,6 @@
 import random
 #libary to genarate random numbers
-    
+
 play_list=["yes!", "yes", "Yes","Ya","Yep","yep","Yup","YAAAAAS","Totally","Totes","Sure","y","Y"]
 leave_list=["No","no","nah","nope","totally not","n","N"]
 #list for stay or leave answer for varible: playagain
@@ -9,6 +9,8 @@ uname=input("please enter your name: ")
 #asks for user name
 print("Hello", uname , ".This is a Game where you have to corectly guess a number, you are only allowed 3 guesses.")
 #prints a greeting
+
+#this looks wrong
 
 
 
@@ -40,7 +42,7 @@ def game():
         #Checks if the guess the user gave is corect wrong or a incorect value. Than tells the user so
         print("The number was:",rannum)
        # return
-    
+
 #function
 
 playagain = "Y"
@@ -59,13 +61,3 @@ while True:
             try:
                 playagain = input("Play again? (y/n): ")
         #break
-   
-
-
-
-
-
-
-
-
-
