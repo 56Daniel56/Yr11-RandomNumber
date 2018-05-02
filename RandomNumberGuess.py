@@ -10,9 +10,7 @@ uname=input("please enter your name: ")
 print("Hello", uname , ".This is a Game where you have to corectly guess a number, you are only allowed 3 guesses.")
 #prints a greeting
 
-#this looks wrong
-#again
-
+#broke at the bottom
 
 
 
